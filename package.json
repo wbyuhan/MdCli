@@ -1,9 +1,9 @@
 {
-    "name": "MdCli",
-    "version": "1.0.0",
-    "description": "",
+    "name": "mdreact-cli",
+    "version": "1.0.1",
+    "description": "一个基于react的脚手架",
     "bin": {
-        "MdCli": "./main.js"
+        "mdreact-cli": "./main.js"
     },
     "private": false,
     "scripts": {
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "git+https://github.com/wbyuhan/MdCli.git"
     },
-    "keywords": [],
+    "keywords": ["MdCli"],
     "author": "",
     "license": "ISC",
     "bugs": {

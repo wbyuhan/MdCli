@@ -35,7 +35,7 @@ program
             const spinner = ora("模板下载中^.^ 请稍后")
             spinner.start();
             paramater = {...paramater, version }
-            download('direct:https://github.com/wbyuhan/egg-ts-cloud.git', targetPath, { clone: true }, (err) => {
+            download('direct:https://github.com/wbyuhan/react-mobx-admin.git', targetPath, { clone: true }, (err) => {
                 console.error(err)
                 if (!err) {
                     spinner.succeed()

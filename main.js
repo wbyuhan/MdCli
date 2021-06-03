@@ -12,7 +12,7 @@ const { runInstall } = require('./utils/addDepence');
 const { queryArr } = require('./utils/inquireArr');
 const { projectSuccess, noPackageJSON, pullFailed, queryError, info } = require('./utils/outPutFun');
 
-const version = '1.0.1';
+const version = '1.0.4';
 program
     .command("info")
     .description("描述包")
@@ -35,7 +35,7 @@ program
             const spinner = ora("模板下载中^.^ 请稍后")
             spinner.start();
             paramater = {...paramater, version }
-            download('direct:https://github.com/wbyuhan/react-mobx-admin.git', targetPath, { clone: true }, (err) => {
+            download('github.com:wbyuhan/react-mobx-admin#main', targetPath, { clone: true }, (err) => {
                 console.error(err)
                 if (!err) {
                     spinner.succeed()

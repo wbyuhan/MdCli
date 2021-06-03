@@ -1,9 +1,9 @@
 {
-    "name": "mdreact-cli",
-    "version": "1.0.1",
-    "description": "一个基于react的脚手架",
+    "name": "candle-shade-cli",
+    "version": "1.0.5",
+    "description": "烛阴 一个基于react的脚手架",
     "bin": {
-        "mdreact-cli": "./main.js"
+        "candle-shade-cli": "./main.js"
     },
     "private": false,
     "scripts": {
@@ -13,7 +13,9 @@
         "type": "git",
         "url": "git+https://github.com/wbyuhan/MdCli.git"
     },
-    "keywords": ["MdCli"],
+    "keywords": [
+        "candle-shade"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {

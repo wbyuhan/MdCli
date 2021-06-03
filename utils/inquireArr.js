@@ -25,25 +25,10 @@ const queryArr = [{
         default: "author"
     },
     {
-        name: "isAxios",
-        type: 'confirm',
-        message: "是否安装axios"
-    },
-    {
-        name: "isReactRouterDom",
+        name: "isUmiRequest",
         type: "confirm",
-        message: "是否安装react-router-dom"
+        message: "是否安装umi-request"
     },
-    {
-        name: "isRedux",
-        type: "confirm",
-        message: "是否安装redux"
-    },
-    {
-        name: "isReactRedux",
-        type: "confirm",
-        message: "是否安装react-redux"
-    }
 ]
 module.exports = {
     queryArr

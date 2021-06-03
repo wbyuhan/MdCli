@@ -10,7 +10,7 @@ const noPackageJSON = function() {
     console.log(chalk.red("请重新尝试！"));
 }
 const pullFailed = function() {
-    console.log(chalk.red("failed! 拉取失败", err));
+    console.log(chalk.red("failed! 拉取失败"));
     console.log(chalk.red("请重新尝试！"));
 }
 const queryError = function(error) {
@@ -19,7 +19,7 @@ const queryError = function(error) {
 }
 const info = function() {
     console.log(chalk.green("作者搭建了一个简易版的react脚手架，用来加快react环境搭建的速度,提供了可选配置axios react-router-dom redux react-redux"));
-    console.log(chalk.green("通过使用命令 simple-create-react init projectName 的方式生成项目"))
+    console.log(chalk.green("通过使用命令 candle-shade-cli init projectName 的方式生成项目"))
 }
 module.exports = {
     projectSuccess,
